@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jekyll Search</title>
+</head>
+<body>
+
+
+<script type="text/javascript" src="dist/jekyll-search.min.js"></script>
+<script type="text/javascript">
+	var db = [
+		{"name": "Hello, World!", "desc": "This is a hello, world post"},
+		{"name": "Sample Post", "desc": "I am sample post description and I can say hello"},
+	];
+
+	var search = new JekyllSearch(db);
+	var query = search.urlQuery("q");
+	search.like("desc", query).fetch(function(row) {
+		console.log(row);
+	});
+</script>
+</body>
+</html>

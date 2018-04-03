@@ -1,0 +1,29 @@
+{
+  "name": "jekyll-search-js",
+  "version": "1.0.0",
+  "description": "Jekyll static site generator search engine",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codebrk/jekyll-search-js.git"
+  },
+  "keywords": [
+    "jekyll",
+    "javascript"
+  ],
+  "author": "Jeeva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codebrk/jekyll-search-js/issues"
+  },
+  "homepage": "https://github.com/codebrk/jekyll-search-js#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0"
+  }
+}
